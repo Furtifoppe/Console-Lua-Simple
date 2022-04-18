@@ -1,4 +1,5 @@
 -- Les couleurs [info: J'utilise les Escape Character] --
+-- The colours [info: I use Escape Character] --
 
 _G.colors = {
 
@@ -12,6 +13,10 @@ _G.colors = {
 color = [vert, rouge, bleu] sur String
 timer = true ou false sur Boolean
 types = [info, log, error] sur String
+
+color = [vert, rouge, bleu] on String
+timer = true or false on Boolean
+types = [info, log, error] on String
 ]]
 
 function Conf(color, types, text, timer) 
